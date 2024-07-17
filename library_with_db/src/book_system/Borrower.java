@@ -19,19 +19,11 @@ public class Borrower {
 	}
 	
 	
+	//getters
+	public String getBorrowerName() {return this.borrower_name;	}
+	public int getBorrowerID() {return this.borrower_id;}
+	public String getName() {return this.borrower_name;}
 
-	public String getBorrowerName() {
-		return this.borrower_name;		
-	}
-	public int getBorrowerID() {
-		return this.borrower_id;		
-	}
-	public String getName() {
-		return this.borrower_name;
-	}
-
-		
-	public void setPhone(String p) {
-		this.phone = p; 
-	}
+	// setters
+	public void setPhone(String p) {this.phone = p;}
 }
